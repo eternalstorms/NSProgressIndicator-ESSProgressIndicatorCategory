@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3915F52A1AFA324600B20D69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3915F5291AFA324600B20D69 /* AppDelegate.m */; };
+		3915F52C1AFA324600B20D69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3915F52B1AFA324600B20D69 /* main.m */; };
+		3915F52E1AFA324600B20D69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3915F52D1AFA324600B20D69 /* Images.xcassets */; };
+		3915F5311AFA324600B20D69 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3915F52F1AFA324600B20D69 /* MainMenu.xib */; };
+		3915F53D1AFA324600B20D69 /* ESSProgressBarTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3915F53C1AFA324600B20D69 /* ESSProgressBarTestTests.m */; };
+		3915F54B1AFA340600B20D69 /* NSProgressIndicator+ESSProgressIndicatorCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3915F54A1AFA340600B20D69 /* NSProgressIndicator+ESSProgressIndicatorCategory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3915F5371AFA324600B20D69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3915F51B1AFA324600B20D69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3915F5221AFA324600B20D69;
+			remoteInfo = ESSProgressBarTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3915F5231AFA324600B20D69 /* ESSProgressBarTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESSProgressBarTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3915F5271AFA324600B20D69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3915F5281AFA324600B20D69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3915F5291AFA324600B20D69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3915F52B1AFA324600B20D69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3915F52D1AFA324600B20D69 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3915F5301AFA324600B20D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3915F5361AFA324600B20D69 /* ESSProgressBarTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESSProgressBarTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3915F53B1AFA324600B20D69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3915F53C1AFA324600B20D69 /* ESSProgressBarTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESSProgressBarTestTests.m; sourceTree = "<group>"; };
+		3915F5491AFA340600B20D69 /* NSProgressIndicator+ESSProgressIndicatorCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSProgressIndicator+ESSProgressIndicatorCategory.h"; sourceTree = "<group>"; };
+		3915F54A1AFA340600B20D69 /* NSProgressIndicator+ESSProgressIndicatorCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSProgressIndicator+ESSProgressIndicatorCategory.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3915F5201AFA324600B20D69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3915F5331AFA324600B20D69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3915F51A1AFA324600B20D69 = {
+			isa = PBXGroup;
+			children = (
+				3915F5251AFA324600B20D69 /* ESSProgressBarTest */,
+				3915F5391AFA324600B20D69 /* ESSProgressBarTestTests */,
+				3915F5241AFA324600B20D69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3915F5241AFA324600B20D69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3915F5231AFA324600B20D69 /* ESSProgressBarTest.app */,
+				3915F5361AFA324600B20D69 /* ESSProgressBarTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3915F5251AFA324600B20D69 /* ESSProgressBarTest */ = {
+			isa = PBXGroup;
+			children = (
+				3915F5491AFA340600B20D69 /* NSProgressIndicator+ESSProgressIndicatorCategory.h */,
+				3915F54A1AFA340600B20D69 /* NSProgressIndicator+ESSProgressIndicatorCategory.m */,
+				3915F5281AFA324600B20D69 /* AppDelegate.h */,
+				3915F5291AFA324600B20D69 /* AppDelegate.m */,
+				3915F52D1AFA324600B20D69 /* Images.xcassets */,
+				3915F52F1AFA324600B20D69 /* MainMenu.xib */,
+				3915F5261AFA324600B20D69 /* Supporting Files */,
+			);
+			path = ESSProgressBarTest;
+			sourceTree = "<group>";
+		};
+		3915F5261AFA324600B20D69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3915F5271AFA324600B20D69 /* Info.plist */,
+				3915F52B1AFA324600B20D69 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3915F5391AFA324600B20D69 /* ESSProgressBarTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				3915F53C1AFA324600B20D69 /* ESSProgressBarTestTests.m */,
+				3915F53A1AFA324600B20D69 /* Supporting Files */,
+			);
+			path = ESSProgressBarTestTests;
+			sourceTree = "<group>";
+		};
+		3915F53A1AFA324600B20D69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3915F53B1AFA324600B20D69 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3915F5221AFA324600B20D69 /* ESSProgressBarTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3915F5401AFA324600B20D69 /* Build configuration list for PBXNativeTarget "ESSProgressBarTest" */;
+			buildPhases = (
+				3915F51F1AFA324600B20D69 /* Sources */,
+				3915F5201AFA324600B20D69 /* Frameworks */,
+				3915F5211AFA324600B20D69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESSProgressBarTest;
+			productName = ESSProgressBarTest;
+			productReference = 3915F5231AFA324600B20D69 /* ESSProgressBarTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3915F5351AFA324600B20D69 /* ESSProgressBarTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3915F5431AFA324600B20D69 /* Build configuration list for PBXNativeTarget "ESSProgressBarTestTests" */;
+			buildPhases = (
+				3915F5321AFA324600B20D69 /* Sources */,
+				3915F5331AFA324600B20D69 /* Frameworks */,
+				3915F5341AFA324600B20D69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3915F5381AFA324600B20D69 /* PBXTargetDependency */,
+			);
+			name = ESSProgressBarTestTests;
+			productName = ESSProgressBarTestTests;
+			productReference = 3915F5361AFA324600B20D69 /* ESSProgressBarTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3915F51B1AFA324600B20D69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Eternal Storms Software";
+				TargetAttributes = {
+					3915F5221AFA324600B20D69 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					3915F5351AFA324600B20D69 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 3915F5221AFA324600B20D69;
+					};
+				};
+			};
+			buildConfigurationList = 3915F51E1AFA324600B20D69 /* Build configuration list for PBXProject "ESSProgressBarTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3915F51A1AFA324600B20D69;
+			productRefGroup = 3915F5241AFA324600B20D69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3915F5221AFA324600B20D69 /* ESSProgressBarTest */,
+				3915F5351AFA324600B20D69 /* ESSProgressBarTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3915F5211AFA324600B20D69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3915F52E1AFA324600B20D69 /* Images.xcassets in Resources */,
+				3915F5311AFA324600B20D69 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3915F5341AFA324600B20D69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3915F51F1AFA324600B20D69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3915F52C1AFA324600B20D69 /* main.m in Sources */,
+				3915F52A1AFA324600B20D69 /* AppDelegate.m in Sources */,
+				3915F54B1AFA340600B20D69 /* NSProgressIndicator+ESSProgressIndicatorCategory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3915F5321AFA324600B20D69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3915F53D1AFA324600B20D69 /* ESSProgressBarTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3915F5381AFA324600B20D69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3915F5221AFA324600B20D69 /* ESSProgressBarTest */;
+			targetProxy = 3915F5371AFA324600B20D69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3915F52F1AFA324600B20D69 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3915F5301AFA324600B20D69 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3915F53E1AFA324600B20D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3915F53F1AFA324600B20D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3915F5411AFA324600B20D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ESSProgressBarTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3915F5421AFA324600B20D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ESSProgressBarTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3915F5441AFA324600B20D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ESSProgressBarTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESSProgressBarTest.app/Contents/MacOS/ESSProgressBarTest";
+			};
+			name = Debug;
+		};
+		3915F5451AFA324600B20D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ESSProgressBarTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ESSProgressBarTest.app/Contents/MacOS/ESSProgressBarTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3915F51E1AFA324600B20D69 /* Build configuration list for PBXProject "ESSProgressBarTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3915F53E1AFA324600B20D69 /* Debug */,
+				3915F53F1AFA324600B20D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3915F5401AFA324600B20D69 /* Build configuration list for PBXNativeTarget "ESSProgressBarTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3915F5411AFA324600B20D69 /* Debug */,
+				3915F5421AFA324600B20D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3915F5431AFA324600B20D69 /* Build configuration list for PBXNativeTarget "ESSProgressBarTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3915F5441AFA324600B20D69 /* Debug */,
+				3915F5451AFA324600B20D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3915F51B1AFA324600B20D69 /* Project object */;
+}
