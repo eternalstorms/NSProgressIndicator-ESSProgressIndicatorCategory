@@ -22,11 +22,26 @@
 
 @implementation NSProgressIndicator (ESSProgressIndicatorCategory)
 
+static ESSProgressBarAnimation *anim = nil;
 - (void)animateToDoubleValue:(double)val
 {
-	ESSProgressBarAnimation *anim = [[ESSProgressBarAnimation alloc] initWithProgressBar:self
-																		  newDoubleValue:val];
+	if (anim != nil)
+	{
+		double oldToValue = anim.newValue;
+		[anim stopAnimation];
+		anim = nil;
+		self.doubleValue = oldToValue;
+	}
+	
+	anim = [[ESSProgressBarAnimation alloc] initWithProgressBar:self
+												 newDoubleValue:val];
 	[anim startAnimation];
+}
+
+- (void)animationDealloc
+{
+	[anim stopAnimation];
+	anim = nil;
 }
 
 @end
@@ -56,6 +71,9 @@
 	double delta = self.newValue-self.initialValue;
 	
 	self.progInd.doubleValue = self.initialValue + (delta*currentProgress);
+	
+	if (currentProgress == 1.0 && [self.progInd respondsToSelector:@selector(animationDealloc)])
+		[self.progInd animationDealloc];
 }
 
 @end
