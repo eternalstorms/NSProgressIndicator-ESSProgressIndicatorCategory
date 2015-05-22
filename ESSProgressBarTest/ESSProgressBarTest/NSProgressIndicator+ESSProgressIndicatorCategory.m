@@ -10,7 +10,7 @@
 
 @interface ESSProgressBarAnimation : NSAnimation
 
-@property (strong) NSProgressIndicator *progInd;
+@property (weak) NSProgressIndicator *progInd;
 @property (assign) double initialValue;
 @property (assign) double newValue;
 
@@ -57,7 +57,7 @@ static ESSProgressBarAnimation *anim = nil;
 		self.progInd = ind;
 		self.initialValue = self.progInd.doubleValue;
 		self.newValue = val;
-		self.animationBlockingMode = NSAnimationNonblockingThreaded;
+		self.animationBlockingMode = NSAnimationNonblocking;
 		return self;
 	}
 	
