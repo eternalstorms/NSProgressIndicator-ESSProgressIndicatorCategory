@@ -27,9 +27,9 @@
 
 - (void)increaseByTen
 {
-	[self.indicator animateToDoubleValue:self.indicator.doubleValue+10];
+	[self.indicator animateToDoubleValue:self.indicator.doubleValue+500];
 	dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-		if (self.indicator.doubleValue >= 20.0)
+		if (self.indicator.doubleValue >= 1000.0)
 			[self decreaseByTen];
 		else
 			[self increaseByTen];
@@ -38,7 +38,7 @@
 
 - (void)decreaseByTen
 {
-	[self.indicator animateToDoubleValue:self.indicator.doubleValue-10];
+	[self.indicator animateToDoubleValue:self.indicator.doubleValue-500];
 	dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
 		if (self.indicator.doubleValue <= 0.0)
 			[self increaseByTen];

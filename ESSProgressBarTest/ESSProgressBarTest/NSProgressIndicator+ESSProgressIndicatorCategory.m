@@ -70,7 +70,7 @@ static ESSProgressBarAnimation *anim = nil;
 	
 	double delta = self.newValue-self.initialValue;
 	
-	self.progInd.doubleValue = self.initialValue + (delta*currentProgress);
+	self.progInd.doubleValue = self.initialValue + (delta* self.currentValue); //changed from currentProgress to currentValue to take into account animationCurves. Thanks, Alan B. for the tip
 	
 	if (currentProgress == 1.0 && [self.progInd respondsToSelector:@selector(animationDealloc)])
 		[self.progInd animationDealloc];
